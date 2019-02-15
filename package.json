@@ -1,0 +1,35 @@
+{
+    "name": "@nepada/eslint-config",
+    "version": "1.0.0",
+    "description": "Nepada ESLint shared config.",
+    "keywords": [
+        "eslint",
+        "eslintconfig"
+    ],
+    "author": {
+        "name": "Petr Morávek",
+        "email": "petr@pada.cz"
+    },
+    "license": "BSD-3-Clause",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nepada/eslint-config.git"
+    },
+    "bugs": "https://github.com/nepada/eslint-config/issues",
+    "peerDependencies": {
+        "eslint": "^5.14.0",
+        "eslint-plugin-import": "^2.16.0"
+    },
+    "devDependencies": {
+        "eslint": "^5.14.0",
+        "eslint-plugin-import": "^2.16.0"
+    },
+    "main": "eslintrc.js",
+    "files": [
+        "eslintrc.js"
+    ],
+    "scripts": {
+        "lint": "eslint .",
+        "test": "npm run lint"
+    }
+}
