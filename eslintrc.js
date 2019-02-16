@@ -23,7 +23,7 @@ module.exports = {
         'arrow-spacing': 'error',
         'block-scoped-var': 'error',
         'block-spacing': ['error', 'never'],
-        'brace-style': ['error', '1tbs'],
+        'brace-style': ['error', '1tbs', {'allowSingleLine': true}],
         'comma-dangle': ['error', 'always-multiline'],
         'comma-spacing': 'error',
         'comma-style': 'error',
