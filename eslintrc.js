@@ -78,7 +78,6 @@ module.exports = {
         'semi': ['error', 'always'],
         'semi-spacing': 'error',
         'semi-style': 'error',
-        'sort-imports': 'error',
         'space-before-function-paren': ['error', {'anonymous': 'always', 'named': 'never', 'asyncArrow': 'always'}],
         'space-in-parens': 'error',
         'space-unary-ops': 'error',
