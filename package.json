@@ -17,12 +17,12 @@
     },
     "bugs": "https://github.com/nepada/eslint-config/issues",
     "peerDependencies": {
-        "eslint": "^5.14.0",
-        "eslint-plugin-import": "^2.16.0"
+        "eslint": "^6.0.0",
+        "eslint-plugin-import": "^2.18.0"
     },
     "devDependencies": {
-        "eslint": "^5.14.0",
-        "eslint-plugin-import": "^2.16.0"
+        "eslint": "^6.0.0",
+        "eslint-plugin-import": "^2.18.0"
     },
     "main": "eslintrc.js",
     "files": [
