@@ -1,7 +1,7 @@
 Nepada ESLint config
 ====================
 
-[![Build Status](https://travis-ci.org/nepada/eslint-config.svg?branch=master)](https://travis-ci.org/nepada/eslint-config)
+[![Build Status](https://github.com/nepada/eslint-config/workflows/CI/badge.svg)](https://github.com/nepada/eslint-config/actions?query=workflow%3ACI+branch%3Amaster)
 [![Downloads this Month](https://img.shields.io/npm/dm/@nepada/eslint-config.svg)](https://yarnpkg.com/package/@nepada/eslint-config)
 [![Latest stable](https://img.shields.io/npm/v/@nepada/eslint-config.svg)](https://yarnpkg.com/package/@nepada/eslint-config)
 
