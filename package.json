@@ -1,6 +1,7 @@
 {
     "name": "@nepada/eslint-config",
-    "version": "1.5.0",
+    "version": "2.0.0",
+    "type": "module",
     "description": "Nepada ESLint shared config.",
     "keywords": [
         "eslint",
@@ -17,16 +18,20 @@
     },
     "bugs": "https://github.com/nepada/eslint-config/issues",
     "peerDependencies": {
-        "eslint": "^8.0.0",
-        "eslint-plugin-import": "^2.26.0"
+        "@eslint/js": "^9.13.0",
+        "eslint": "^9.13.0",
+        "eslint-plugin-import": "^2.31.0",
+        "globals": "^15.11.0"
     },
     "devDependencies": {
-        "eslint": "^8.0.0",
-        "eslint-plugin-import": "^2.26.0"
+        "@eslint/js": "^9.13.0",
+        "eslint": "^9.13.0",
+        "eslint-plugin-import": "^2.31.0",
+        "globals": "^15.11.0"
     },
-    "main": "eslintrc.js",
+    "main": "index.js",
     "files": [
-        "eslintrc.js"
+        "index.js"
     ],
     "scripts": {
         "lint": "eslint .",
