@@ -1,4 +1,4 @@
-import importPlugin from 'eslint-plugin-import';
+import {flatConfigs as importConfigs} from 'eslint-plugin-import-x';
 import globals from 'globals';
 import eslintJs from '@eslint/js';
 
@@ -31,7 +31,7 @@ const rules = {
     'eqeqeq': 'error',
     'func-call-spacing': 'error',
     'function-paren-newline': ['error', 'consistent'],
-    'import/first': 'error',
+    'import-x/first': 'error',
     'indent': ['error', 4],
     'key-spacing': 'error',
     'keyword-spacing': 'error',
@@ -85,8 +85,8 @@ const rules = {
 export default {
     default: [
         eslintJs.configs.recommended,
-        importPlugin.flatConfigs.errors,
-        importPlugin.flatConfigs.warnings,
+        importConfigs.errors,
+        importConfigs.warnings,
         {
             name: 'nepada/default',
             languageOptions,
